@@ -1,0 +1,28 @@
+.header{
+  background-color: #3D4246;
+  padding: 1%;
+  text-align: left;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 10; /* Ensure it's above other content */
+  display: flex;
+  justify-content: space-between;
+}
+.gold_line{
+  background-color: #D2C49B;
+  padding: 0.15%;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 10; /* Ensure it's above other content */
+  margin-top: 5.1%;
+}
+
+.a img{
+  width: 7%;
+  height: 7%;
+  display: flex;
+  margin-right: 5%;
+  justify-content: space-evenly;
+}
