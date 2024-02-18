@@ -7,6 +7,7 @@ import { SidenavComponent } from './sidenav/sidenav.component';
 import { HeaderComponent } from './header/header.component';
 import { MainReservComponent } from './main-reserv/main-reserv.component';
 import { MesReservComponent } from './mes-reserv/mes-reserv.component';
+import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,9 @@ import { MesReservComponent } from './mes-reserv/mes-reserv.component';
     AppRoutingModule,
     SidenavComponent
   ],
-  providers: [],
+  providers: [
+    provideAnimationsAsync()
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

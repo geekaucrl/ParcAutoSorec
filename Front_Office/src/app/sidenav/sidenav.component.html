@@ -1,17 +1,11 @@
 <table>
   <tr>
     <td>
-      <button (click)="selectButton('dashboard')" [class.selected]="selectedButton === 'dashboard'">Tableau de Bord</button>
+      <button (click)="selectButton('dashboard')" [class.selected]="selectedButton === 'dashboard'">Réservations</button>
     </td>
   </tr>
   <tr>
     <td>
-    <button (click)="selectButton('reservations')" [class.selected]="selectedButton === 'reservations'">Réservations</button>
-      <div class="dropdown" *ngIf="selectedButton === 'reservations'" [@fadeInOut]>
-        <ul>
-          <li (click)="navigate('demande')">Demandes</li>
-          <li>En cours</li>
-        </ul>
-      </div>
+    <button (click)="selectButton('reservations')" [class.selected]="selectedButton === 'reservations'">Mes Réservations</button>
     </td>
   </tr>
